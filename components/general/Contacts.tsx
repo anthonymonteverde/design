@@ -35,7 +35,7 @@ const Contacts = () => {
       {/* Form and Info */}
       <div className="container max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-start justify-center">
         {/* Contact Form */}
-        <Card className="bg-accent">
+        <Card className="bg-accent rounded-none">
           <CardContent className="p-6 space-y-5">
             <form action="#!" className={`space-y-5 ${sourceSansPro.className}`}>
               <div>

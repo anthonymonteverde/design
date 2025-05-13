@@ -34,7 +34,7 @@ const Promotion = () => {
               alt="Top Sales"
               width={500}   // Adjust width
               height={300}  // Adjust height
-              className="w-full h-full object-cover rounded-sm shadow-md"
+              className="w-full h-full object-cover shadow-md"
               loading="lazy"
             />
           </div>
@@ -59,7 +59,7 @@ const Promotion = () => {
               alt="Get it SOLD"
               width={500}   // Adjust width
               height={300}  // Adjust height
-              className="w-full h-full object-cover rounded-sm shadow-md"
+              className="w-full h-full object-cover shadow-md"
               loading="lazy"
             />
           </div>
@@ -83,7 +83,7 @@ const Promotion = () => {
               alt="Guide to Buyers"
               width={500}   // Adjust width
               height={300}  // Adjust height
-              className="w-full h-full object-cover rounded-sm shadow-md"
+              className="w-full h-full object-cover shadow-md"
               loading="lazy"
             />
           </div>
