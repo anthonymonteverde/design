@@ -26,23 +26,25 @@ const Hero = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/20" />
 
-      {/* Right-aligned content */}
-      <div className="absolute right-0 z-10 flex flex-col justify-center items-end h-full px-8 md:px-16 text-white max-w-3xl">
-        <h1
-          className={`text-lg md:text-2xl font-light mb-2 text-right text-shadow-subtle ${sourceSansPro.className}`}
-        >
-          MARCI METZGER - THE RIDGE REALTY GROUP
-        </h1>
-        <p
-          className={`text-4xl md:text-6xl leading-tight text-right text-shadow-subtle ${cinzel.className}`}
-        >
-          PAHRUMP REALTOR
-        </p>
-        <Button
-          className={`bg-white text-black px-6 py-3 mt-3 rounded-full font-semibold hover:bg-gray-200 cursor-pointer transition ${sourceSansPro.className}`}
-        >
-          CALL NOW
-        </Button>
+      {/* Center-aligned content */}
+      <div className="absolute inset-0 flex items-center justify-center z-10 px-8 md:px-16 text-white">
+        <div className="text-center max-w-3xl">
+          <h1
+            className={`text-lg md:text-2xl font-light mb-2 text-shadow-subtle ${sourceSansPro.className}`}
+          >
+            MARCI METZGER - THE RIDGE REALTY GROUP
+          </h1>
+          <p
+            className={`text-4xl md:text-6xl leading-tight text-shadow-subtle ${cinzel.className}`}
+          >
+            PAHRUMP REALTOR
+          </p>
+          <Button
+            className={`bg-white text-black px-6 py-3 mt-6 rounded-full font-semibold hover:bg-gray-200 cursor-pointer transition ${sourceSansPro.className}`}
+          >
+            CALL NOW
+          </Button>
+        </div>
       </div>
     </section>
   );

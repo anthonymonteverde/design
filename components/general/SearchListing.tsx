@@ -67,7 +67,7 @@ const SearchListing = () => {
         </div>
 
         <div className="flex justify-center">
-          <Card className="w-full max-w-6xl bg-white/90 backdrop-blur-md shadow-xl p-6 sm:p-8">
+          <Card className="w-full max-w-6xl bg-white/90 backdrop-blur-md shadow-xl p-6 sm:p-8 border-none rounded-none">
             <CardContent>
               <form className={sourceSansPro.className}>
                 <h3
