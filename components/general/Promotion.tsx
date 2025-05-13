@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"; // Importing Image from next/image
 import { Source_Sans_3 } from 'next/font/google';
 import { Cinzel } from 'next/font/google';
 
@@ -28,11 +29,13 @@ const Promotion = () => {
         {/* Block 1 */}
         <div className={`flex flex-col lg:flex-row items-center gap-10 mb-16 ${sourceSansPro.className}`}>
           <div className="w-full lg:w-1/2">
-            <img
+            <Image
               src="/get-it-sold1.webp"
               alt="Top Sales"
-              loading="lazy"
+              width={500}   // Adjust width
+              height={300}  // Adjust height
               className="w-full h-full object-cover rounded-sm shadow-md"
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-1/2">
@@ -51,16 +54,18 @@ const Promotion = () => {
         {/* Block 2 */}
         <div className="flex flex-col lg:flex-row-reverse items-center gap-10 mb-16">
           <div className="w-full lg:w-1/2">
-            <img
+            <Image
               src="/get-it-sold-2.webp"
               alt="Get it SOLD"
-              loading="lazy"
+              width={500}   // Adjust width
+              height={300}  // Adjust height
               className="w-full h-full object-cover rounded-sm shadow-md"
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-1/2">
             <h4 className="text-2xl mb-4">
-              Don't Just List it...
+              {`Don't Just List it...`}
             </h4>
             <p className="text-lg text-gray-500">
               Get it SOLD! We exhaust every avenue to ensure our listings are at
@@ -73,11 +78,13 @@ const Promotion = () => {
         {/* Block 3 */}
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="w-full lg:w-1/2">
-            <img
+            <Image
               src="/get-it-sold-3.webp"
               alt="Guide to Buyers"
-              loading="lazy"
+              width={500}   // Adjust width
+              height={300}  // Adjust height
               className="w-full h-full object-cover rounded-sm shadow-md"
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-1/2">

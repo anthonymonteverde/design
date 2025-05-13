@@ -28,7 +28,7 @@ const Contacts = () => {
       {/* Heading */}
       <div className="text-center max-w-2xl mx-auto mb-12">
         <h2 className={`text-4xl font-semibold text-gray-600 ${cinzel.className}`}>
-          We're always on the lookout to work with new clients.
+          {`We're`} always on the lookout to work with new clients.
         </h2>
       </div>
 

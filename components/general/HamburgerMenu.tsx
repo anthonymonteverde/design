@@ -12,10 +12,6 @@ export const sourceSansPro = Source_Sans_3({
   display: "swap",
 });
 
-interface Props {
-  links: { href: string; label: string }[];
-}
-
 export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -77,7 +73,7 @@ export default function HamburgerMenu() {
             href="/"
             onClick={() => setIsOpen(false)}
           >
-            LET'S MOVE
+            {`LET'S MOVE`}
           </Link>
           <Link
             className="text-md font-medium link-hover-underline-collapsed"
